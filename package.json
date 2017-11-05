@@ -1,26 +1,26 @@
 {
-  "name": "SimpleMarkdown",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhuangZhou/SimpleMarkdown.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhuangZhou/SimpleMarkdown/issues"
-  },
-  "homepage": "https://github.com/zhuangZhou/SimpleMarkdown#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "marked": "^0.3.6",
-    "swing": "^3.1.1"
-  }
+    "name": "SimpleMarkdown",
+    "version": "1.0.0",
+    "description": "一个Node开发的简单Markdown编辑器",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhuangZhou/SimpleMarkdown.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhuangZhou/SimpleMarkdown/issues"
+    },
+    "homepage": "https://github.com/zhuangZhou/SimpleMarkdown#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "marked": "^0.3.6",
+        "swing": "^3.1.1"
+    }
 }
