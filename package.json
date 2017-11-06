@@ -2,7 +2,7 @@
     "name": "SimpleMarkdown",
     "version": "1.0.0",
     "description": "一个Node开发的简单Markdown编辑器",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -19,8 +19,10 @@
     "homepage": "https://github.com/zhuangZhou/SimpleMarkdown#readme",
     "dependencies": {
         "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
         "express": "^4.16.2",
         "marked": "^0.3.6",
-        "swing": "^3.1.1"
+        "serve-favicon": "^2.4.5",
+        "swig": "^1.4.2"
     }
 }
