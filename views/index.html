@@ -2,26 +2,24 @@
 
 <div class="list">
     <h1 class="title">SimpleMarkdown</h1>
-    <p class="add">
+    <p class="add" id="add">
         <i class="iconfont icon-tianjia mr10"></i>
         <span>新建文档</span>
     </p>
     <ul class="mdList">
-        <li class="active">
-            <p class="mdTitle">test</p>
-            <i class="iconfont icon-shanchu deleteMd"></i>
-        </li>
+        {% for  item in titleList %}
         <li>
-            <p class="mdTitle">test</p>
+            <p class="mdTitle">{{item}}</p>
             <i class="iconfont icon-shanchu deleteMd none"></i>
         </li>
+        {% endfor %}
     </ul>
 
 </div>
-<div class="editMark">
+<div class="editMark" id="editMark">
     <div class="left">
         <header>
-            <input type="text" value="无标题文章" id="markTitle" placeholder="无标题文章">
+            <input type="text" value="" id="markTitle" placeholder="请输入文章标题">
         </header>
         <nav>
             <div class="handleArea">
@@ -42,11 +40,14 @@
                 </abbr>
             </div>
             <div class="saveArea">
-                <abbr title="预览" id="previewSet" data-show="false">
+                <abbr title="预览" id="previewSet" data-show="true">
                     <i class="iconfont icon-shuanglan"></i>
                 </abbr>
                 <abbr title="全屏" id="fullScreen">
                     <i class="iconfont icon-icwindowzoom48px"></i>
+                </abbr>
+                <abbr title="退出全屏" id="exitFullScreen" style="display:none;">
+                    <i class="iconfont icon-tuichuquanping"></i>
                 </abbr>
                 <abbr title="保存" id="saveMd">
                     <i class="iconfont icon-baocun"></i>
@@ -54,7 +55,8 @@
             </div>
         </nav>
         <article>
-            <textarea id="editArea"></textarea>
+            <textarea id="editArea">
+            </textarea>
         </article>
     </div>
     <div class="right">

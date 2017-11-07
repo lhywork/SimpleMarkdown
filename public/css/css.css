@@ -69,6 +69,8 @@ body {
     margin-top: 40px;
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    user-select: none;
 }
 
 .list .add {
@@ -80,6 +82,7 @@ body {
     box-sizing: border-box;
     font-size: 16px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .list .add:hover {
@@ -129,7 +132,7 @@ body {
 /* editMark */
 
 .editMark .left {
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
 
@@ -161,6 +164,7 @@ body {
     color: #545454;
     padding: 0 20px;
     box-sizing: border-box;
+    user-select: none;
 }
 
 .editMark .left nav div {
@@ -256,4 +260,23 @@ blockquote p {
     padding: 10px 20px;
     word-wrap: break-word;
     border-left: solid 5px #ccc;
+}
+
+/* img */
+
+img{
+    display: block;
+    margin: 10px 0;
+}
+
+/* 全屏 */
+
+#editMark:-webkit-full-screen{
+    width: 100%;
+}
+#editMark:-moz-full-screen{
+    width: 100%;
+}
+#editMark:-ms-fullscreen{
+    width: 100%;
 }
