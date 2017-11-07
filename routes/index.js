@@ -98,7 +98,7 @@ router.post('/choice',(req,res) =>{
 
     let data = {
         text:text,
-        html:marked(text)
+        html:marked(html)
     }
 
     res.json(data);
