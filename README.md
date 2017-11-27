@@ -1,6 +1,7 @@
 # SimpleMarkdown - 一款简单的Markdown编辑器 #
 
 >源码地址： <https://github.com/zhuangZhou/SimpleMarkdown>
+<br> 预览地址：<http://hawkzz.com:8000>
 <br> 作者网站：<http://hawkzz.com> 
 
 ## 简介 ##
